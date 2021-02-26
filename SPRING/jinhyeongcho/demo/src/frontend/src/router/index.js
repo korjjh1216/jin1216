@@ -11,6 +11,7 @@ import BoardModifyPage from '../views/BoardModifyPage.vue'
 import BoardReadPage from '../views/BoardReadPage.vue'
 import vuetifyBoardListPage from "@/views/vuetifyPage/vuetifyBoardListPage";
 import vuetifyBoardListPaginationPage from "@/views/vuetifyPage/vuetifyBoardListPaginationPage";
+import CrawlCategoryPage from "@/views/crawl/CrawlCategoryPage";
 
 
 Vue.use(VueRouter)
@@ -77,6 +78,13 @@ const routes = [
     name: 'vuetifyBoardListPaginationPage',
     components: {
       default: vuetifyBoardListPaginationPage
+    }
+  },
+  {
+    path: '/crawlCategory',
+    name: 'CrawlCategoryPage',
+    components: {
+      default: CrawlCategoryPage
     }
   }
 ]
