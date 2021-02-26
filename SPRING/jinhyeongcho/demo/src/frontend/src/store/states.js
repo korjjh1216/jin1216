@@ -3,8 +3,13 @@ export default {
   boards: [],
   board: null,
 
-  //For Test
+  // For Test
   count: 0,
-  weight:3,
-  random:0
+  weight: 3,
+  random: 0,
+
+  // For Crawling
+  lists: [],
+  news: [],
+  homeNews: []
 }
