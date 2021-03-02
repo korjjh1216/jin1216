@@ -9,17 +9,13 @@ public class Time {
     }
 
     public Time(int hour, int minute, int second){
-        this.hour= hour;
-        this.minute = minute;
-        this.second = second;
+        this.hour= ((hour >=0 && hour <24) ? hour : 0);
+        this.minute = (( minute >=0 && minute<60 ) ? minute:0);
+        this.second = (( second >=0 && second<60 ) ? second:0);;
     }
 
     @Override
     public String toString() {
-        return "Time{" +
-                "hour=" + hour +
-                ", minute=" + minute +
-                ", second=" + second +
-                '}';
+        return hour +" : "+ minute +" : "+ second ;
     }
 }
