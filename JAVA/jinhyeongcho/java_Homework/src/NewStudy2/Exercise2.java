@@ -12,9 +12,7 @@ public class Exercise2 {
         //String str = "12345";
         int sum = 0;
         for(int i = 0; i<str.length();i++) {
-            int aa = str.charAt(i);
-            sum += aa - '0';
-
+            sum += str.charAt(i) - '0';
         }
         System.out.println(sum);
     }

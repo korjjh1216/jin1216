@@ -1,5 +1,6 @@
 package NewStudy2;
 
+
 public class Exercise6 {
     //아래와 같이 배열 answer에 담긴 데이터를 읽고 각 숫자의 개수를 세어서 개수만큼 '*'을
     //찍어서 아래 그림처럼  출력하는 프로그램을 작성하시오.
