@@ -1,18 +1,17 @@
-<template>
-  <template>
+ <template>
     <div id="QnA">
       <h2>QnA List</h2>
-      <router-link :to="{ name: 'BoardRegisterPage' }">
+      <qnA-list :QnA="QnAs"/>
+      <router-link :to="{ name: 'QnARegisterPage' }">
         질문등록 <!--아직 안만듬-->
       </router-link>
-      <qnA-list :QnA="QnAs"/>
     </div>
-  </template>
-</template>
+ </template>
+
 
 <script>
-import QnAList from "@/components/QnAList";
-import { mapState, mapActions } from 'vuex'
+import QnAList from "../components/QnAList";
+import{mapState,mapActions} from "vuex"
 
 export default {
   name: "QnAListPage",

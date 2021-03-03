@@ -4,6 +4,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About'
 import QnAListPage from "@/views/QnAListPage";
+import QnARegisterPage from "@/views/QnARegisterPage";
+
 
 Vue.use(VueRouter)
 
@@ -23,6 +25,13 @@ const routes = [
     name: 'QnAListPage',
     components: {
       default: QnAListPage
+    }
+  },
+  {
+    path: '/QnARegisterPage',
+    name: 'QnARegisterPage',
+    components: {
+      default: QnARegisterPage
     }
   },
 
