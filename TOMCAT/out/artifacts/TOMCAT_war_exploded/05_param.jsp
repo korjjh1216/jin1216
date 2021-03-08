@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>서블릿</title>
-    <script type="text/javascript" src="param.jsp"></script>
+    <script type="text/javascript" src="param.js"></script>
 </head>
 <body>
 <form method="get" action="/Param" name="frm">
