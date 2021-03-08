@@ -4,6 +4,8 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <welcome-file-list>
+        <welcome-file>05_param.jsp</welcome-file>
+        <welcome-file>04_method.jsp</welcome-file>
         <welcome-file>08_radio.jsp</welcome-file>
         <welcome-file>07_login.jsp</welcome-file>
         <welcome-file>06_info.jsp</welcome-file>
@@ -20,6 +22,14 @@
         <servlet-name>RadioServlet</servlet-name>
         <servlet-class>unit08.RadioServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>method</servlet-name>
+        <servlet-class>unit04.method</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>param</servlet-name>
+        <servlet-class>unit05.param</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
@@ -33,5 +43,13 @@
     <servlet-mapping>
         <servlet-name>RadioServlet</servlet-name>
         <url-pattern>/Radio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>method</servlet-name>
+        <url-pattern>/hm2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>param</servlet-name>
+        <url-pattern>/Param</url-pattern>
     </servlet-mapping>
 </web-app>
