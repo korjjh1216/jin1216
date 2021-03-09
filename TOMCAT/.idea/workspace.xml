@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1069f132-735c-43bc-b2fc-29897d81866f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TOMCAT_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/TOMCAT_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/04_method.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/05_param.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/06_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/06_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/07_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/07_login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/08_radio.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TOMCAT_war_exploded/param.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit04/method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit04/method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit05/param.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit05/param.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit06/InfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit06/InfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit07/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit07/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unit08/RadioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit08/RadioServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/04_method.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/04_method.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/05_param.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/05_param.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/06_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/06_info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/07_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/07_login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/08_radio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/08_radio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +62,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -195,6 +161,7 @@
       <updated>1615213402233</updated>
       <workItem from="1615213403970" duration="15000" />
       <workItem from="1615213428120" duration="1591000" />
+      <workItem from="1615263091372" duration="599000" />
     </task>
     <servers />
   </component>
